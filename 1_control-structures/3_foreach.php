@@ -17,64 +17,37 @@ $indexedArray = array(
 	'ten'
 	);
 
+$indexedArray[1];
 
 for ($i = 0; $i <= 10; $i++ ) {
 
-	echo ($indexedArray[$i] . PHP_EOL);
+	echo ($indexedArray[$i]);
 
 }
-
-
-// But, there's a big problem ....
-
-
-// What about associative arrays??
-
-// Not mention that doing that every time you want to inspect
-// each element in an array is a big pain.
-$associativeArray = array(
-	'one' => 'I\'m ',
-	'two' => 'a ',
-	'three' => 'little ',
-	'four' => 'teapot ',
-	'five' => 'short',
-	'six' => 'and ',
-	'seven' => 'stout',
-	);
-
-
-for ($i = 0; $i <= 10; $i++ ) {
-
-	//echo ($associativeArray[$i]);
-
-	//Doesn't work ...
-	// There's nothing indexed at a numeric value ...
-	// So we'll get an error
-	
-}
-
 
 // Enter "foreach."
 
 // Foreach loops through each element in the array
 // On each pass, the current element is assigned to the variable after 'as'
 // You can then inspect that value within the loop
-foreach ($associativeArray as $value) {
+foreach ($indexedArray as $value) {
 
-	echo ($value . PHP_EOL);
+	echo ($value);
 
 }
 
 
-// What is you want to inspect the array key, and not just the value?
+// What if you want to inspect the array key, and not just the value?
 // Well, you can do that too!
 // Like so ...
+foreach ($indexedArray as $key => $value) {
 
-echo('Im a little teapot, examined:' . PHP_EOL);
-foreach ($associativeArray as $key => $value) {
-
-	echo ($key . ': ' . $value . PHP_EOL);
+	echo ($key . ': ' . $value);
 
 }
 
+// Exercise:
+// 1. Declare an array
+// 2. Fill in the array with at least 3 values 
+// 3. Loop through the array using foreach and print out the value. Optionally put an if statement in your foreach.
 

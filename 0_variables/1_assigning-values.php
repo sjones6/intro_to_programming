@@ -19,8 +19,6 @@ echo(" ");
 
 echo($myLastName);
 
-echo(PHP_EOL);
-
 echo("I am " . $myAge . " years old");
 
 

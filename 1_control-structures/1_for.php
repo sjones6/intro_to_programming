@@ -12,11 +12,11 @@ for ( $i = 0; $i <= 10; $i = $i + 1 ) {
 
 	if ( $i === 0 ) {
 
-		echo("Nice to meet you!" . PHP_EOL);
+		echo("Nice to meet you!");
 
 	} else {
 
-		echo('Havent I seen you before? Like ' . $i . ' times already.' . PHP_EOL);
+		echo('Havent I seen you before? Like ' . $i . ' times already.');
 
 	}
 
@@ -29,7 +29,7 @@ for ( $i = 0; $i <= 10; $i = $i + 2 ) {
 
 	echo('Loop number: ' . $j . '; count number: ');
 
-	echo($i . PHP_EOL);
+	echo($i);
 
 	$j = $j + 1;
 

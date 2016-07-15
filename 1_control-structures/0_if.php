@@ -4,28 +4,23 @@
 // Let's declare some variables;
 
 // Fill out the following with you're preferences, following this example.
-$dc = true;
-$nyc = false;
+$chocolate = true;
+$vanilla = false;
 
-// $chocolate = ;
-// $vanilla = ;
-
-// $coke = ;
-// $pepsi = ;
+$coke;
+$pepsi;
 
 
 
 // A simple if statement.
 if ( $chocolate === true ) {
-
 	echo('You like chocolate!' . PHP_EOL);
-
 }
 
 // An if statement with an else statement
 if ( $coke === true ) {
 
-	echo('You do not like coke!' . PHP_EOL);
+	echo('You do like coke!' . PHP_EOL);
 
 } else {
 
@@ -78,10 +73,11 @@ if ( $coke === true ) {
 // Uncomment the following block of code
 // Assign values to $icecream and $donut and then fill out the If statements
 
-/*
+
 $icecream;
 $donut;
 
+/*
 if ( ) {
 
 	echo('If I am printed, you need to recheck your logic!');
@@ -99,6 +95,7 @@ if ( ) {
 	echo('If I am printed, you need to recheck your logic!');
 
 }
+
 */
 
 

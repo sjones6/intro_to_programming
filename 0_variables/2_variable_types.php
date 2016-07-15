@@ -6,45 +6,44 @@
 
 // 1. String
 
-$string = 'This is a string';
+$string = 'This is a string. And I am programmer. And the sky is blue.';
 
-echo( gettype($string) . PHP_EOL ); 
+echo( gettype($string) ); 
 
 // 2. Integer
 
 $int = 2;
 
-echo ( gettype($int) . PHP_EOL );
+echo ( gettype($int) );
 
 // 3. Boolean
 
-$bool = true;
+$bool = false;
 
 $type = gettype($bool);
 
-echo($type . PHP_EOL);
+echo($type);
 
 // 4. Float
-
 
 $float = 2.12345;
 
 $variableType = gettype($float);
 
-echo ($variableType . PHP_EOL);
+echo ($variableType);
 
 // 5. Null
 
 $null = null;
 
-echo (gettype($null) . PHP_EOL);
+echo (gettype($null));
 
 // 6. Array
 
 // An array is listing of information
-$array = array("a string", true, 1.1);
+$array = array("a string", true, 1.1, null, 13);
 
-echo (gettype($array) . PHP_EOL);
+echo (gettype($array));
 
 
 //More on arrays to come

@@ -12,7 +12,6 @@
 $i = 0;
 while ( $i <= 10 ) {
 
-
 	if ($i === 10) {
 
 		echo('I\'m gonna puke.' . PHP_EOL);
