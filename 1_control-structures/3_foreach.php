@@ -1,5 +1,6 @@
 <?php
 
+require('../config/config.php');
 
 // What if you want to iterate through every element in an array?
 

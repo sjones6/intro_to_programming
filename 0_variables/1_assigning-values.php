@@ -1,6 +1,6 @@
 <?php
 
-
+require('../config/config.php');
 
 // Use the = to put a value "in" the variable
 
@@ -23,3 +23,6 @@ echo("I am " . $myAge . " years old");
 
 
 // Pick three new variables and print them out.
+
+
+

@@ -1,17 +1,24 @@
 <?php
 
+require('../config/config.php');
+
 // Arrays
 
 //First an empty array:
 
-$array = array(1, 2, 3, 4, 5);
+$array = array(
+	0 => 1,  
+	1 =>2,
+	2 => 3, 
+	3 => 4, 5
+	);
 
 
-var_dump($array);
+dump($array);
 
 //Access a single element in an array
 
-var_dump($array[0]);
+dump($array[0]);
 
 // 1. Indexed Arrays
 
@@ -27,7 +34,7 @@ $indexedArray = [
 	11 => 'asdfas'
 ];
 
-var_dump($indexedArray);
+dump($indexedArray);
 
 // And you can arrays in arrays in arrays in arrays in arrays. It's like inception. They will mess with your mind.
 
@@ -40,8 +47,8 @@ var_dump($indexedArray);
 $donuts = array('sugar', 'cinnamon', 'chocolate', 'boston cream', 'old fashioned');
 $sodas = array('coke', 'pepsi', 'dr. pepper', 'barqs rootbeer', 'mug rootbeer');
 
-// echo("my favorite donut is " . );
-// echo("my favorite soda is " . );
+ echo("my favorite donut is " . $donuts[3]);
+ echo("my favorite soda is " . $sodas[0]);
 
 
 

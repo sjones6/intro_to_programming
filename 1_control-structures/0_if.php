@@ -1,5 +1,6 @@
 <?php
 
+require('../config/config.php');
 
 // Let's declare some variables;
 
@@ -74,15 +75,15 @@ if ( $coke === true ) {
 // Assign values to $icecream and $donut and then fill out the If statements
 
 
-$icecream;
-$donut;
+$icecream = false;
+$donut = true;
 
-/*
-if ( ) {
+
+if ( $icecream === true ) {
 
 	echo('If I am printed, you need to recheck your logic!');
 
-} elseif ( ) {
+} elseif (  ) {
 
 	if () {
 		echo('If I am printed, you need to recheck your logic!');
@@ -95,7 +96,5 @@ if ( ) {
 	echo('If I am printed, you need to recheck your logic!');
 
 }
-
-*/
 
 

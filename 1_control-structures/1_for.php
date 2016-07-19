@@ -1,5 +1,7 @@
 <?php
 
+require('../config/config.php');
+
 // For loops through a number of times ...
 
 // To initialize a for loop, you declare it with a tight syntax:

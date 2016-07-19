@@ -1,5 +1,7 @@
 <?php
 
+require('../config/config.php');
+
 // A variable can hold 8 types of information (in PHP)
 // But we'll only talk about 6 for now
 

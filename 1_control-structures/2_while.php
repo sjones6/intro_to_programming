@@ -1,5 +1,6 @@
 <?php
 
+require('../config/config.php');
 
 // While a condition is true, do something
 
