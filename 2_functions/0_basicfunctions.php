@@ -52,19 +52,21 @@ function compareAgesForPerson($first, $second) {
 
 
 sayHello();
-//tellMeMyage(72);
-//whoIsOlder(31,23);
+echo '<br><br>';
+tellMeMyage(72);
+echo '<br><br>';
+whoIsOlder(23,31);
+echo '<br><br>';
+$person1 = [
+    'name' => 'Sally',
+    'age' => 22
+];
 
-// $person1 = [
-//     'name' => 'Sally',
-//     'age' => 22
-// ];
-
-// $person2 = [
-//     'name' => 'George',
-//     'name' => 27
-// ];
-// compareAgesForPerson($first, $second);
+$person2 = [
+    'name' => 'George',
+    'age' => 27
+];
+compareAgesForPerson($person1, $person2);
 
 
 //Activity: Write a function to show the difference in price between two items

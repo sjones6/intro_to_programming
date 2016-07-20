@@ -53,9 +53,12 @@ function compareAgesForPerson($first, $second) {
 sayHello(); // does nothing
 echo sayHello(); //this works
 
+echo '<br><br>';
 
 tellMeMyAge(72); // does nothing
-echo tellMyAge(72); //this works
+echo tellMeMyAge(72); //this works
+
+echo '<br><br>';
 
 //Let's save to a variable and
 $person1 = [
@@ -68,8 +71,8 @@ $person2 = [
     'name' => 27
 ];
 // compareAgesForPerson($first, $second); //does nothing
-$olderPerson = compareAgesForPerson($first, $second);
-echo 'Hi, ' . $olderPerson . ' is older';
+$olderPerson = compareAgesForPerson($person1, $person2);
+echo 'Hi, ' . $olderPerson . ' is older<br><br>';
 if ($olderPerson === 'George') {
   echo 'The older person is George';
 }
